@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Musica musica1 = new Musica();
+musica1.nome = "Roxane";
+musica1.dataDeLancamento = DateTime.Parse("12/12/2008");
+
+musica1.ExibirDetalhes();
