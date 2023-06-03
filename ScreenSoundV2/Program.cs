@@ -1,5 +1,14 @@
 ﻿Musica musica1 = new Musica();
 musica1.nome = "Roxane";
-musica1.dataDeLancamento = DateTime.Parse("12/12/2008");
+musica1.artistas = "The Police";
+musica1.duracao = 273;
+musica1.disponivel = true;
 
-musica1.ExibirDetalhes();
+Musica musica2 = new Musica();
+musica2.nome = "Vertigo";
+musica2.artistas = "U2";
+musica2.duracao = 367;
+musica2.disponivel = false;
+
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();
